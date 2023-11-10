@@ -1,0 +1,17 @@
+/* id */
+.input {
+  width: 250px;
+  height: 40px;  
+  background: #FFFFFF;
+  border: 1px solid #505050;
+  border-radius: 10px;  
+  
+  font-weight: 400;
+  font-size: 16px;
+  color: #2d2d2d;  
+  padding-left: 12px;
+}
+
+.input::placeholder {
+  color: #a0a0a0;
+}

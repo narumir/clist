@@ -1,0 +1,11 @@
+{
+  "short_name": "Clist",
+  "name": "공돌이 옷입히기",
+  "icons": [
+    
+  ],
+  "start_url": "/login",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
