@@ -118,7 +118,7 @@ async def json_test():
 async def recommand(request: RecommandRequest):
     key = "test_key"
     algo = "HS256"
-    if False:
+    if True:
         key = JWT_SECRET
         algo = JWT_ALOG
 
