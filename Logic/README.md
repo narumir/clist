@@ -18,7 +18,7 @@ pip install pyjwt
 * WEATHER_SECRET  
 * HASURA_SECRET  
 * JWT_SECRET  
-* JWT_ALOG:  
+* JWT_ALOG
 
 ### 날씨 API
 신청 링크: https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15084084
