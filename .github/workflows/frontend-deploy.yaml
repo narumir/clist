@@ -39,7 +39,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: built-artifact
-          path: web/${{ github.sha }}.zip
+          path: Frontend/${{ github.sha }}.zip
 
   publish:
     runs-on: ubuntu-latest
