@@ -124,6 +124,7 @@ def get_weather_by_location(location: str) -> EWeather:
     ny = position.ny
     url = f"http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst?serviceKey={serviceKey}&pageNo={pageNo}&numOfRows={numOfRows}&dataType={dataType}&base_date={baseDate}&base_time={baseTime}&nx={nx}&ny={ny}"
 
+    res = None
     try: 
         res = requests.get(url=url, timeout=3)
     except requests.exceptions.Timeout:     # 타임아웃 발생 시, 그냥 월별로 계절을 구분해버린다. 
