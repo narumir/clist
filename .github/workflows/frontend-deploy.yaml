@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: fmowl/clist-frontend
+  IMAGE_NAME: narumir/clist-frontend
 
 jobs:
   build:
